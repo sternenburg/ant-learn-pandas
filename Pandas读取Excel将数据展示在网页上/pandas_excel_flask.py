@@ -1,5 +1,10 @@
 from flask import Flask
 import pandas as pd
+import os
+
+working_dir = r'C:\Users\wangl\Documents\GitHub\ant-learn-pandas\Pandas读取Excel将数据展示在网页上'
+
+os.chdir(working_dir)
 
 app = Flask(__name__)
 
